@@ -41,8 +41,8 @@ int SwagBall(struct A **C,int step,int DISPLAY_WIDTH,int DISPLAY_HEIGHT)
    {
     al_get_keyboard_state(&KBstate);
     if (al_key_down(&KBstate, ALLEGRO_KEY_ESCAPE)) break;
-
-   // bound_ball_x(C,ball_x,ball_y);
+if(ball_x==400-35)
+    bound_ball_x(C,ball_x,ball_y);
 
     if ( ball_y <= 0 )
    {

@@ -20,7 +20,6 @@ int main()
 
 
 
-
    free(Arr);
 
     return 0;
